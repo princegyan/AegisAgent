@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  background-color: #f4f4f0;
+  color: #000000;
+  font-family: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui,
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+@layer utilities {
+  .shadow-brutal {
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+
+  .shadow-brutal-sm {
+    box-shadow: 2px 2px 0px 0px #000000;
+  }
+
+  .shadow-brutal-lg {
+    box-shadow: 6px 6px 0px 0px #000000;
+  }
+
+  .shadow-brutal-xl {
+    box-shadow: 8px 8px 0px 0px #000000;
+  }
+}
+
+@layer components {
+  .gumroad-card {
+    @apply bg-white border-2 border-black rounded-xl;
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+
+  .gumroad-btn {
+    @apply border-2 border-black rounded-lg font-bold transition-all duration-150 hover:-translate-x-0.5 hover:-translate-y-0.5 active:translate-x-[1px] active:translate-y-[1px] disabled:opacity-50 disabled:pointer-events-none;
+    box-shadow: 2px 2px 0px 0px #000000;
+  }
+
+  .gumroad-btn:hover {
+    box-shadow: 4px 4px 0px 0px #000000;
+  }
+
+  .gumroad-btn:active {
+    box-shadow: 0px 0px 0px 0px #000000;
+  }
+
+  .gumroad-badge {
+    @apply inline-flex items-center gap-1 px-2.5 py-0.5 border-2 border-black rounded-full text-xs font-bold;
+    box-shadow: 2px 2px 0px 0px #000000;
+  }
+}
+
+/* Custom neo-brutalist scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f4f0;
+  border-left: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ff90e8;
+  border: 2px solid #000000;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #ffc900;
+}

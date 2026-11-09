@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: aegis-agent-control-plane
+    env: docker
+    plan: starter
+    healthCheckPath: /api/procurement
+    envVars:
+      - key: PAYPAL_API_BASE_URL
+        value: https://api-m.sandbox.paypal.com
+      - key: PAYPAL_CLIENT_ID
+        sync: false
+      - key: PAYPAL_CLIENT_SECRET
+        sync: false
+      - key: AEGIS_AGENT_SIGNING_KEY
+        generateValue: true
+      - key: AEGIS_HUMAN_APPROVER_KEY
+        generateValue: true
