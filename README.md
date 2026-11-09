@@ -3,11 +3,7 @@
 ### Deterministic Multi-Agent Governance & Programmable Settlement Protocol for Enterprise Autonomous Procurement
 
 > **Built for the [PayPal AI Hackathon](https://paypalaihackathon.devpost.com/)**  
-> **Target Categories & Sponsor Awards:**
-> - 🏆 **Best Use of Agentic Commerce** & **Best Use of PayPal + AI** ($67,500+ Prize Pool)
-> - 📊 **AG Grid Sponsor Track** ($5,000 Prize Tier — Live Enterprise Operational Flight Deck, Custom Cell Renderers, Master-Detail Drilldowns & Batch Action Triggers)
-> - 🔌 **APIMatic Sponsor Track** ($1,000 Prize Tier — Strict OpenAPI 3.0 Context Bindings & Zero-Hallucination PayPal Tool Schemas)
-> - ☁️ **Render Deployment Track** (Zero-Config Dockerized Infrastructure Blueprint)
+
 
 ---
 
